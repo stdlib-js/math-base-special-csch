@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/math-base-special-csch",
+  "version": "0.0.0",
+  "description": "Compute the hyperbolic cosecant of a number.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-csch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "csc",
+    "cosecant",
+    "math.sinh",
+    "sin",
+    "sine",
+    "hyperbolic",
+    "trig",
+    "trigonometry",
+    "angle"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
