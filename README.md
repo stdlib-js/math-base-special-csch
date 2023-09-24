@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.1.0-deno/mod.js';
 ```
 
 #### csch( x )
@@ -75,7 +75,7 @@ v = csch( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.1.0-deno/mod.js';
 
 var x = linspace( -5.0, 5.0, 100 );
 
