@@ -35,38 +35,30 @@ limitations under the License.
 
 > Compute the [hyperbolic cosecant][hyperbolic-functions] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-csch
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-csch = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var csch = require( 'path/to/vendor/umd/math-base-special-csch/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.csch;
-})();
-</script>
+var csch = require( '@stdlib/math-base-special-csch' );
 ```
 
 #### csch( x )
@@ -97,14 +89,9 @@ v = csch( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var csch = require( '@stdlib/math-base-special-csch' );
 
 var x = linspace( -5.0, 5.0, 100 );
 
@@ -112,11 +99,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( csch( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -212,11 +194,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch/tree/umd
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
 
-[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth/tree/umd
+[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth
 
-[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh/tree/umd
+[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh
 
 <!-- </related-links> -->
 
