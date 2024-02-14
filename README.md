@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@esm/index.mjs';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.2.0-esm/index.mjs';
 ```
 
 #### csch( x )
@@ -80,7 +80,7 @@ v = csch( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@esm/index.mjs';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.2.0-esm/index.mjs';
 
 var x = linspace( -5.0, 5.0, 100 );
 
