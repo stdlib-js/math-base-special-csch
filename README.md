@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-csch/tags). For example,
+
+```javascript
 import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.2.1-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ v = csch( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.2.1-deno/mod.js';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
 
 var x = linspace( -5.0, 5.0, 100 );
 
