@@ -204,7 +204,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/math-base/special/acsch`][@stdlib/math/base/special/acsch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosecant of a number.</span>
--   <span class="package-name">[`@stdlib/math-base/special/csch`][@stdlib/math/base/special/csch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cotangent of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/coth`][@stdlib/math/base/special/coth]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cotangent of a number.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/sinh`][@stdlib/math/base/special/sinh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic sine of a double-precision floating-point number.</span>
 
 </section>
@@ -289,7 +289,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
 
-[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch
+[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth
 
 [@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh
 
