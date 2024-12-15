@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-09)
+## Unreleased (2024-12-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`c660c70`](https://github.com/stdlib-js/stdlib/commit/c660c705bb3478f4fb6cb818c9b1d3429e8a6774) - **chore:** use correct `Makefile` and update benchmarks in `math/base/special/csch` [(#3209)](https://github.com/stdlib-js/stdlib/pull/3209) _(by Gunj Joshi)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
