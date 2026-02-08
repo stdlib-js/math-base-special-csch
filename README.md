@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.3.1-deno/mod.js';
 ```
 
 #### csch( x )
@@ -76,7 +76,7 @@ v = csch( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@deno/mod.js';
+import csch from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csch@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
